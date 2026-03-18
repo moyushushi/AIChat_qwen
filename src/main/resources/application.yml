@@ -1,1 +1,11 @@
-spring.application.name=ai-code-help
+spring:
+  application:
+    name: ai-code-help
+  profiles:
+    active: local
+langchain4j:
+  community:
+    dashscope:
+      chat-model:
+        model-name: qwen-flash
+        api-key: sk-60872add0ba14b93ab192ad14eb8a6eb
